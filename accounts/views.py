@@ -12,7 +12,7 @@ def register_customer(request):
         email = request.POST['email']
         password1 = request.POST['password']
         password2 = request.POST['confirm_password']
-        if password1==password2:
+        if password1==password2: 
             if User.objects.filter(username=username).exists():
                 messages.info(request, 'Username taken')
                 return redirect('register_customer')

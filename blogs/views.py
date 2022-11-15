@@ -8,7 +8,7 @@ def blog_home(request):
         "blogs": BlogPlant.objects.all(),
         "tags": {
         'plant': 'PLANT TALK',
-        'gardening': 'GARDENING DIY\'S',
+        'gardening': 'GARDENING DIY\'S', 
         'styling' : 'PLANTS STYLING',
         'kitchen' : 'KITCHEN GARDENING',
         'development' : 'SUSTAINABLE DEVELOPEMENT'

@@ -25,9 +25,9 @@
                                 <a href="{% url 'home' %}"><i class="fa fa-user" aria-hidden="true"></i> <span>{{ user }}</span></a>
                             </div>
                             <!-- Cart -->
-                            <!-- <div class="cart">
+                             <div class="cart">
                                 <a href="{% url 'cart' %}"><i class="fa fa-shopping-cart" aria-hidden="true"></i> <span>Cart <span class="cart-quantity">({% item_count user %})</span></span></a>
-                            </div> -->
+                            </div> 
                              <div class="login">
                                 <a href="{% url 'logout' %}">&nbsp; &nbsp; <span>Logout</span></a>
                             </div>
@@ -74,7 +74,7 @@
                         <div class="classynav">
                             <ul>
                                 <li><a href="{% url 'home' %}">Home</a></li>
-                                <!-- <li><a href="">Products</a>
+                                <li><a href="">Products</a>
                                     <ul class="dropdown">
                                         <li><a href="{% url 'itemlist' %}">Shop</a></li>
                                         {% if user.username != "Harsha" %}
@@ -82,7 +82,7 @@
                                         {% endif %}
                                         <li><a href="{% url 'cart' %}">Shopping Cart</a></li>
                                     </ul>
-                                </li> -->
+                                </li> 
                                 <li><a href="">Blogs</a>
                                     <ul class="dropdown">
                                         <li><a href="{% url 'blogs' %}">Home</a></li>

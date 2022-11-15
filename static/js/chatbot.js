@@ -84,7 +84,7 @@ function botVoice(message) {
       speech.text = "Ponytail and Bella palm, Bird of Paradise, Yucca, Jade plant, Majesty palm.";
     }
     if (message.includes('seven') || message.includes('7') || message.includes('do you offer any care tips for plants') || message.includes('care tips')) {
-      speech.text = "With a plant of your choice, you will receive printed basic care tips to help you to understand your plant better and get a general understanding of its care. You can always reach out to our customer service at helpdesk@greenway.com if you have any questions or concerns.";
+      speech.text = "With a plant of your choice, you will receive printed basic care tips to help you to understand your plant better and get a general understanding of its care. You can always reach out to our customer service at helpdesk@roots&shoots.com if you have any questions or concerns.";
     }
     if (message.includes('eight') || message.includes('8') || message.includes('what fertilizer do you recommend for indoor plants') || message.includes('fertilizer')) {
       speech.text = "Most plants need to be fertilized during Spring time - March, April and May. The fertilizer we use can be applied anything time. Its unique formula will help your plants grow and thrive with this. It contains oilseed extract, a renewable source of plant nutrition which contains amino acids known to improve overall plant health. No GMOs. Pathogen free - heavy metals free. Gentle on plants - no root burn issues.";
@@ -99,10 +99,10 @@ function botVoice(message) {
       speech.text = "If your plant dies within first 3 days, we will replace it free of charge. After 3 days period, we don't offer any replacement discounts.";
     }
     if (message.includes('twelve') || message.includes('12') || message.includes('what if my plants/planters arrived damaged') || message.includes('damage')) {
-      speech.text = "If your plant(s) or planter(s) arrive damaged, we will replace it free of charge. Notify us within 24 hours via email helpdesk@greenway.com and we will send a replacement asap. Please include pictures and order number.";
+      speech.text = "If your plant(s) or planter(s) arrive damaged, we will replace it free of charge. Notify us within 24 hours via email helpdesk@roots&shoots.com and we will send a replacement asap. Please include pictures and order number.";
     }
     if (message.includes('thirteen') || message.includes('13') || message.includes('suggestions') || message.includes('feedback')) {
-      speech.text = "We will be happy to hear from you. Please write to us on greenway@gmail.com";
+      speech.text = "We will be happy to hear from you. Please write to us on roots&shoots@gmail.com";
     }
 
 	$(function() {
